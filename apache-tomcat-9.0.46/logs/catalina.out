@@ -1,0 +1,74 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-May-2021 21:50:53.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+13-May-2021 21:50:53.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+13-May-2021 21:50:53.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+13-May-2021 21:50:53.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-May-2021 21:50:53.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-May-2021 21:50:53.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-May-2021 21:50:53.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-15.0.2
+13-May-2021 21:50:53.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7-27
+13-May-2021 21:50:53.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-May-2021 21:50:53.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\EngSoft\Cursos\Digital Innovation One\Java\springboot\apache-tomcat-9.0.46
+13-May-2021 21:50:53.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\EngSoft\Cursos\Digital Innovation One\Java\springboot\apache-tomcat-9.0.46
+13-May-2021 21:50:53.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-May-2021 21:50:53.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-May-2021 21:50:53.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-May-2021 21:50:53.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-May-2021 21:50:53.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-May-2021 21:50:53.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:/EngSoft/Cursos/Digital Innovation One/Java/springboot/apache-tomcat-9.0.46/conf/logging.properties
+13-May-2021 21:50:53.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-May-2021 21:50:53.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-May-2021 21:50:53.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-May-2021 21:50:53.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-May-2021 21:50:53.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-May-2021 21:50:53.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:/EngSoft/Cursos/Digital Innovation One/Java/springboot/apache-tomcat-9.0.46
+13-May-2021 21:50:53.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:/EngSoft/Cursos/Digital Innovation One/Java/springboot/apache-tomcat-9.0.46
+13-May-2021 21:50:53.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:/EngSoft/Cursos/Digital Innovation One/Java/springboot/apache-tomcat-9.0.46/temp
+13-May-2021 21:50:53.712 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Lenovo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Lenovo\bin;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Java\apache-maven-3.6.3\bin;C:\Program Files\Java\gradle-6.8.2\bin;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Program Files\Java\apache-ant-1.10.9\bin;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Users\Lenovo\anaconda3;C:\Users\Lenovo\anaconda3\Library\mingw-w64\bin;C:\Users\Lenovo\anaconda3\Library\usr\bin;C:\Users\Lenovo\anaconda3\Library\bin;C:\Users\Lenovo\anaconda3\Scripts;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.3\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.]
+13-May-2021 21:50:55.703 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-May-2021 21:50:56.583 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1049)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1045)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:300)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:253)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1204)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1217)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:603)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1046)
+		... 13 more
+13-May-2021 21:50:56.587 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [4357] milliseconds
+13-May-2021 21:50:56.739 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-May-2021 21:50:56.739 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+13-May-2021 21:50:56.810 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\EngSoft\Cursos\Digital Innovation One\Java\springboot\apache-tomcat-9.0.46\webapps\springboot-0.0.1-SNAPSHOT.war]
+13-May-2021 21:51:13.656 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-May-2021 21:51:15.225 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [314] milliseconds.
+13-May-2021 21:51:15.372 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\EngSoft\Cursos\Digital Innovation One\Java\springboot\apache-tomcat-9.0.46\webapps\springboot-0.0.1-SNAPSHOT.war] has finished in [18.552] ms
+13-May-2021 21:51:15.372 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\EngSoft\Cursos\Digital Innovation One\Java\springboot\apache-tomcat-9.0.46\webapps\docs]
+13-May-2021 21:51:15.631 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\EngSoft\Cursos\Digital Innovation One\Java\springboot\apache-tomcat-9.0.46\webapps\docs] has finished in [259] ms
+13-May-2021 21:51:15.631 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\EngSoft\Cursos\Digital Innovation One\Java\springboot\apache-tomcat-9.0.46\webapps\examples]
+13-May-2021 21:51:19.735 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\EngSoft\Cursos\Digital Innovation One\Java\springboot\apache-tomcat-9.0.46\webapps\examples] has finished in [4.093] ms
+13-May-2021 21:51:19.740 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\EngSoft\Cursos\Digital Innovation One\Java\springboot\apache-tomcat-9.0.46\webapps\host-manager]
+13-May-2021 21:51:20.044 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\EngSoft\Cursos\Digital Innovation One\Java\springboot\apache-tomcat-9.0.46\webapps\host-manager] has finished in [300] ms
+13-May-2021 21:51:20.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\EngSoft\Cursos\Digital Innovation One\Java\springboot\apache-tomcat-9.0.46\webapps\manager]
+13-May-2021 21:51:20.365 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\EngSoft\Cursos\Digital Innovation One\Java\springboot\apache-tomcat-9.0.46\webapps\manager] has finished in [318] ms
+13-May-2021 21:51:20.365 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [E:\EngSoft\Cursos\Digital Innovation One\Java\springboot\apache-tomcat-9.0.46\webapps\ROOT]
+13-May-2021 21:51:20.796 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\EngSoft\Cursos\Digital Innovation One\Java\springboot\apache-tomcat-9.0.46\webapps\ROOT] has finished in [426] ms
+13-May-2021 21:51:20.852 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [24263] milliseconds
